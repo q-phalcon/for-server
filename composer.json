@@ -1,8 +1,8 @@
 {
-    "name": "q-phalcon/q-phalcon",
+    "name": "q-phalcon/for-server",
     "description": "The QPhalcon framework",
-    "keywords": ["PHP Framework", "phalcon", "fast php" ,"easy php"],
-    "homepage": "https://github.com/q-phalcon/q-phalcon",
+    "keywords": ["PHP Framework", "phalcon", "QP" ,"纯后端框架"],
+    "homepage": "https://github.com/q-phalcon/for-server",
     "license": "MIT",
     "type":"project",
     "authors": [
