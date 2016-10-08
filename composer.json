@@ -16,6 +16,6 @@
     "require": {
         "q-phalcon/kernel": "0.2.x",
         "yunhack/php-validator": "0.0.1",
-        "guzzlehttp/guzzle": "6.2.1"
+        "guzzlehttp/guzzle": "6.2.x"
     }
 }
