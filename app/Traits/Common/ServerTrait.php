@@ -145,7 +145,7 @@ trait ServerTrait
         }
 
         if ($code != Constant::ERR_DEFAULT) {
-            $this->re_data['error_code'] = $code;
+            $this->re_data['code'] = $code;
         }
 
         $this->re_data['result'] = Constant::CODE_FAILURE;
@@ -171,7 +171,7 @@ trait ServerTrait
         }
 
         if ($code != Constant::ERR_DEFAULT) {
-            $this->re_data['error_code'] = $code;
+            $this->re_data['code'] = $code;
         }
 
         $this->re_data['result'] = Constant::CODE_WARNING;
@@ -197,9 +197,9 @@ trait ServerTrait
         }
 
         if ($code != Constant::ERR_DEFAULT) {
-            $this->re_data['error_code'] = $code;
+            $this->re_data['code'] = $code;
         } else {
-            $this->re_data['error_code'] = Constant::CODE_SUCCESS;
+            $this->re_data['code'] = Constant::CODE_SUCCESS;
         }
 
         $this->re_data['result'] = Constant::CODE_SUCCESS;
